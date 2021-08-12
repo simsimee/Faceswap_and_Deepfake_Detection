@@ -7,6 +7,6 @@
 - [FaceForensics++](https://arxiv.org/abs/1901.08971)
 
 ### 참고 Repository
-https://github.com/deepfakes/faceswap
+- https://github.com/deepfakes/faceswap
 - [Motion-supervised Co-Part Segmentation 저자의 공식 Repository](https://github.com/AliaksandrSiarohin/motion-cosegmentation)
 - [FaceForensics++ 저자의 공식 Repository](https://github.com/ondyari/FaceForensics)
