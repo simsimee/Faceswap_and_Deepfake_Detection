@@ -23,6 +23,7 @@
 ![입술 변형](https://user-images.githubusercontent.com/75903850/134393672-02cc0293-e63b-41a3-80fb-57b46461dcd9.png)
 ![머리 변형](https://user-images.githubusercontent.com/75903850/134393930-c055f5ce-1084-4399-b93c-cd3b1c9c9f41.png)
 
+위 예시처럼 소스 비디오(왼쪽)의 특징(ex. 입술, 헤어스타일)을 타겟 비디오(가운데)에 적용하여 결과(오른쪽)를 만들어 낼 수 있다.
  
 #### 참고 논문 
 - [Motion-supervised Co-Part Segmentation](https://arxiv.org/abs/2004.03234)
