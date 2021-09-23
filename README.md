@@ -32,12 +32,21 @@
 #### 참고 Repository
 - https://github.com/deepfakes/faceswap
 - [Motion-supervised Co-Part Segmentation 저자의 공식 Repository](https://github.com/AliaksandrSiarohin/motion-cosegmentation)
--
+
+### 딥페이크 탐지
+
+### 사용한 라이브러리, 툴
+- Pytorch
+- xception pretrained model
+- dlib (detection library)
+- opencv2
+
+### 
+![image](https://user-images.githubusercontent.com/75903850/134397425-10566442-5671-4311-9b06-82348f5308de.png)
+
+
 #### 참고 논문
-- [Motion-supervised Co-Part Segmentation](https://arxiv.org/abs/2004.03234)
 - [FaceForensics++](https://arxiv.org/abs/1901.08971)
 
 #### 참고 Repository
-- https://github.com/deepfakes/faceswap
-- [Motion-supervised Co-Part Segmentation 저자의 공식 Repository](https://github.com/AliaksandrSiarohin/motion-cosegmentation)
 - [FaceForensics++ 저자의 공식 Repository](https://github.com/ondyari/FaceForensics)
