@@ -33,7 +33,7 @@
 - https://github.com/deepfakes/faceswap
 - [Motion-supervised Co-Part Segmentation 저자의 공식 Repository](https://github.com/AliaksandrSiarohin/motion-cosegmentation)
 
-### 딥페이크 탐지
+### 딥페이크 탐지 (FaceForensics++)
 
 ### 사용한 라이브러리, 툴
 - Pytorch
@@ -41,7 +41,7 @@
 - dlib (detection library)
 - opencv2
 
-### 
+### 방법론
 ![image](https://user-images.githubusercontent.com/75903850/134397425-10566442-5671-4311-9b06-82348f5308de.png)
 
 
