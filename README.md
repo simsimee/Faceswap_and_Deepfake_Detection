@@ -44,6 +44,8 @@
 ### 방법론
 ![image](https://user-images.githubusercontent.com/75903850/134397425-10566442-5671-4311-9b06-82348f5308de.png)
 
+### 진행 순서
+영상의 프레임 간단하게 전처리 -> dlib 를 이용하여 얼굴 탐지 -> 탐지된 얼굴에 width, height를 추가로 주어 bounding box 그리기 -> 예측. 각 프레임 별 Fake일 확률을 최종적으로 평균내어 영상의 Deep Fake 확률 도출
 
 #### 참고 논문
 - [FaceForensics++](https://arxiv.org/abs/1901.08971)
