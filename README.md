@@ -45,9 +45,19 @@
 ![image](https://user-images.githubusercontent.com/75903850/134397425-10566442-5671-4311-9b06-82348f5308de.png)
 ![image](https://user-images.githubusercontent.com/75903850/135982383-20b5a2a2-1ec5-45df-bd86-a27c29e43b73.png)
 
+참고한 FaceForensic++ 논문(아래 첨부)에 따라 성능이 가장 높았던 XceptionNet 분류 모델을 이용하였다.
 
 ### 진행 순서
 영상의 프레임 간단하게 전처리 -> dlib 를 이용하여 얼굴 탐지 -> 탐지된 얼굴에 width, height를 추가로 주어 bounding box 그리기 -> 예측. 각 프레임 별 Fake일 확률을 최종적으로 평균내어 영상의 Deep Fake 확률 도출
+
+### 분석한 영상
+![image](https://user-images.githubusercontent.com/75903850/135982953-5b6c9c04-f801-464f-8822-077250304259.png)
+
+아까 진행했던 Face swap 결과와 AI hub의 딥페이크 영상을 탐지해본 결과 각각 약 49, 53, 96% 로 DeepFake 확률이 도출되었다.
+
+### 개선점
+
+사전학습모델을 사용할 뿐아니라 추가적으로 학습하여 성능을 높히고, 누구나 사용할 수 있도록 간단한 웹 어플을 제작하고 
 
 #### 참고 논문
 - [FaceForensics++](https://arxiv.org/abs/1901.08971)
